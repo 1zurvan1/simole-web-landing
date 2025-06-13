@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    box-shadow: 0 7px 16px 0 #00000085;
+    justify-content: space-between;
+    padding: 1rem;
+    h2 {
+        font-weight: bold;
+        color: var(--bottun-color);
+    }
+    .list{
+        &__item {
+            margin-left: 1rem;
+            a{
+               color: var(--text-color);
+               cursor: pointer;
+            }
+        }
+        &__link-primary {
+            background-color: var(--bottun-color);
+            padding: .5rem 1rem;
+            color: #F9FAFE !important;
+        }
+    }
+
+}
